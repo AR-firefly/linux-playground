@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.vite/
+coverage/
+playwright-report/
+test-results/
+artifacts/
+*.tsbuildinfo
+*.local
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+
+# 本地私有记忆（不随仓库开源）
+.workbuddy/

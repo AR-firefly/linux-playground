@@ -1,0 +1,16 @@
+{
+  "name": "linux-playground",
+  "version": "1.0.0",
+  "private": true,
+  "description": "放心敲，别怕错。零安装的 Linux 练习场（模拟版网页 + 真机模式本地中转站）。",
+  "scripts": {
+    "real": "node agent/start.js",
+    "test:agent": "node --test agent/platform.test.js agent/server.test.js",
+    "dev": "npm --prefix web run dev",
+    "build": "npm --prefix web run build",
+    "test": "npm --prefix web test"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
